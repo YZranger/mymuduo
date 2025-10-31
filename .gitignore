@@ -1,0 +1,9 @@
+.vscode/
+bin/
+build/
+test/
+thirdparty/
+.clangd
+CMakeFiles/
+example/
+lib/
