@@ -20,7 +20,7 @@ void Socket::bindAddress(const InetAddress &localaddr) {
 }
 
 void Socket::listen() {
-    if(0 != ::listen(sockfd_, 1024)) {
+    if(0 != ::listen(sockfd_, 32768)) {
         LOG_FATAL("listen sockfd:%d fail", sockfd_);
     }
 }
